@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 65px;
+  padding: 35px;
+  color: rgb(153,0,18);
+}
+
+p#paragraph1 {
+  padding: 30px;
+  text-align:center;
+  font-family: cursive;
+  background-color: white;
+  background-color: rgba(255, 255, 255, .85);
+  }
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  color: rgb(153,0,18)
+}
+
+
+
+div#space {
+  min-height: 5vh;
+  width: 10vw;
+}
+
+div#navbarNavAltMarkup {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+
+body {
+  text-align: center;
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div#inner {
+  max-height: 404px;
+  min-height: 84px;
+  max-width: 1512px;
+  min-width: 24px;
+}
+
+
+body#contact-us {
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {font-size: 22px;}
+    input {border: 0; padding: 10px; font-size: 18px;}
+    input[type="submit"] {background: darkred; color: white;
+    }
