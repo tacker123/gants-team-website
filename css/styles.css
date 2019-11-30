@@ -7,6 +7,7 @@ h1 {
   color: rgb(153,0,18);
 }
 
+
 /*css for background image, all pages */
 body {
   text-align: center;
@@ -32,7 +33,6 @@ div#navbarNavAltMarkup {
   color: rgb(153,0,18)
 }
 
-
 /*css for carousel, index.html page */
 div#inner {
   max-height: 404px;
@@ -49,10 +49,6 @@ p#paragraph1 {
   background-color: white;
   background-color: rgba(255, 255, 255, .85);
   }
-
-
-
-
 
 
 
