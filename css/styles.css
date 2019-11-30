@@ -1,0 +1,75 @@
+/* css for title, all pages */
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 65px;
+  padding: 35px;
+  color: rgb(153,0,18);
+}
+
+/*css for background image, all pages */
+body {
+  text-align: center;
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*css for nav bar, all pages */
+div#navbarNavAltMarkup {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+/*css for social media icons, all pages */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  color: rgb(153,0,18)
+}
+
+
+/*css for carousel, index.html page */
+div#inner {
+  max-height: 404px;
+  min-height: 84px;
+  max-width: 1512px;
+  min-width: 24px;
+}
+
+/*css for paragraph, on index.html page */
+p#paragraph1 {
+  padding: 30px;
+  text-align:center;
+  font-family: cursive;
+  background-color: white;
+  background-color: rgba(255, 255, 255, .85);
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*css for contact us box, contact-us.html page */
+body#contact-us {
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+
+    p {font-size: 22px;}
+    input {border: 0; padding: 10px; font-size: 18px;}
+    input[type="submit"] {background: darkred; color: white;
+    }
