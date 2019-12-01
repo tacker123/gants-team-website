@@ -11,9 +11,10 @@ h1 {
 body {
   text-align: center;
   background-image: url("../images/background2.jpg");
-  background-size: cover;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 /*css for nav bar, all pages */
