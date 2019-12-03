@@ -9,10 +9,9 @@ h1 {
 
 /*css for background image, all pages */
 body {
-  text-align: center;
   background-image: url("../images/background2.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -21,16 +20,6 @@ body {
 div#navbarNavAltMarkup {
   font-family: cursive;
   font-size: 25px;
-}
-
-/*css for social media icons, all pages */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: white;
-  color: rgb(153,0,18)
 }
 
 
@@ -42,22 +31,310 @@ div#inner {
   min-width: 24px;
 }
 
-/*css for paragraph, on index.html page */
+/*css for paragraph, index.html page */
 p#paragraph1 {
   padding: 30px;
-  text-align:center;
+  text-align: center;
   font-family: cursive;
   background-color: white;
   background-color: rgba(255, 255, 255, .85);
   }
 
+  /*css for social media icons, all pages */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(153,0,18);
+    align-self: baseline;
+  }
 
 
 
 
+  /*css for baking.html page */
+  /* note: where " . " means "class" */
+
+  .view {
+    margin: 50px;
+    float: left;
+    border: 10px solid rgb(255,255,255);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+
+  .view .mask,
+  .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
+
+  .view img {
+    display: block;
+    position: relative;
+  }
+  .view h2 {
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    font-family: Raleway, serif;
+    padding: 10px;
+    margin: 20px 0 0 0;
+  }
+
+  .view p {
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    color: rgb(255,255,255);
+    padding: 0px 20px 0px;
+    text-align: center;
+  }
+
+  .view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-family: Raleway, serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px rgb(0,0,0);
+  }
+
+  .view a.info:hover {
+    box-shadow: 0 0 5px rgb(0,0,0);
+  }
+
+  /*First baking recipe, for baking.html*/
+
+  .view-first img {
+    /*1*/
+    transition: all 0.2s linear;
+    width: 300px;
+    height: 200px;
+  }
+
+  .view-first .mask {
+    opacity: 0;
+    background-color: rgba(204, 0, 0, 0.40);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    font-family: Raleway, serif;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .view-first a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
 
 
+  /* First baking receipe, for baking.html*/
 
+  .view-first:hover img {
+    transform: scale(1.1);
+  }
+
+  .view-first:hover .mask {
+    opacity: 1;
+  }
+
+  .view-first:hover h2,
+  .view-first:hover p,
+  .view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .view-first:hover p {
+    transition-delay: 0.1s;
+  }
+
+  .view-first:hover a.info {
+    transition-delay: 0.2s;
+  }
+
+  /*Second baking recipe, for baking.html*/
+
+  .view-second img {
+    /*2*/
+    transition: all 0.2s linear;
+    width: 300px;
+    height: 200px;
+  }
+
+  .view-second .mask {
+    opacity: 0;
+    background-color: rgba(204, 0, 0, 0.40);
+    width: 300px
+    padding: 105px;
+    height: 200px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .view-second h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    font-family: Raleway, serif;
+    transition: all 0.2s ease-in-out;
+    margin: 20px 40px 0px 40px;
+  }
+
+  .view-second p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .view-second a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+  /* Second baking recipe - for baking.html*/
+
+  .view-second:hover img {
+    transform: scale(1.1);
+  }
+
+  .view-second:hover .mask {
+    opacity: 1;
+  }
+
+  .view-second:hover h2,
+  .view-second:hover p,
+  .view-second:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .view-second:hover p {
+    transition-delay: 0.1s;
+  }
+
+  .view-second:hover a.info {
+    transition-delay: 0.2s;
+  }
+
+  /*Third baking recipe, for baking.html*/
+
+  .view-third img {
+    /*2*/
+    transition: all 0.2s linear;
+    width: 300px;
+    height: 200px;
+  }
+
+  .view-third .mask {
+    opacity: 0;
+    background-color: rgba(204, 0, 0, 0.40);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .view-third h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    font-family: Raleway, serif;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .view-third p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .view-third a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+  /* Third baking receipe, for baking.html*/
+
+  .view-third:hover img {
+    transform: scale(1.1);
+  }
+
+  .view-third:hover .mask {
+    opacity: 1;
+  }
+
+  .view-third:hover h2,
+  .view-third:hover p,
+  .view-third:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .view-third:hover p {
+    transition-delay: 0.1s;
+  }
+
+  .view-third:hover a.info {
+    transition-delay: 0.2s;
+  }
+  /*end CSS for baking.html */
+
+/*CSS for gingerbread.html and other recipes*/
+h3{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+ul{
+  list-style: square inside;
+  padding-left: 40px;
+  font-size: 20px;
+
+
+}
+ol{
+  list-style: square inside;
+  font-size: 20px;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+img#ginger {
+  display: flex;
+  padding: 0px;
+  margin: 20px;
+  align-items: center;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: solid;
+  border-color: darkred;
+}
 
 
 
