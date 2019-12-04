@@ -31,26 +31,24 @@ div#inner {
   min-width: 24px;
 }
 
-/*css for paragraph, index.html page */
-p#paragraph1 {
-  padding: 30px;
-  text-align: center;
-  font-family: cursive;
-  background-color: white;
-  background-color: rgba(255, 255, 255, .85);
-  }
+
 
   /*css for social media icons, all pages */
   .fa {
     padding: 20px;
     font-size: 30px;
-    justify-content: center;
     border-radius: 50%;
     background-color: white;
     color: rgb(153,0,18);
-    align-self: baseline;
   }
 
+p#socialmedia {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 
 
