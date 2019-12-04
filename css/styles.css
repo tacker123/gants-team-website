@@ -7,16 +7,6 @@ h1 {
   color: rgb(153,0,18);
 }
 
-/*css for background image, all pages */
-
-body {
-background-image: url("images/background2.jpg")
-background-position: center center;
-background-repeat: repeat;
-background-attachment: fixed;
-background-size: cover;
-}
-
 
 /*css for nav bar, all pages */
 div#navbarNavAltMarkup {
