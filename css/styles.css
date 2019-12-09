@@ -330,3 +330,41 @@ body#baking {
   background-attachment: fixed;
   background-size: cover;
 }
+
+body#contact-us {
+  background-image: url("../images/background3.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+p#contact-us{
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 22px;
+  border: 0;
+  padding: 10px;
+  font-size: 18px;}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: darkred;
+  color: white;
+}
+
+a#form {
+  color: rgb(153,0,18);
+  font-family: helvetica;
+  font-size: 25px;
+  padding: 40px;
+}
