@@ -333,7 +333,7 @@ body#baking {
 
 body#contact-us {
   background-image: url("../images/background4.jpg");
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
