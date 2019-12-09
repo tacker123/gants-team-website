@@ -326,13 +326,15 @@ h1#space{
 body#baking {
   background-image: url("../images/background2.jpg");
   background-position: center center;
+  width: 100%;
+  style='max-width: 500px'
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 body#contact-us {
-  background-image: url("../images/background4.jpg");
+  background-image: url("../images/background6.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
