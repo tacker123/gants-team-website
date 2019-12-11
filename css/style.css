@@ -506,7 +506,7 @@ div#navbarNavAltMarkup {
 
 /*css for carousel, index.html page */
 div#inner {
-  max-height: 500px;
+  max-height: 750px;
   min-height: 84px;
   max-width: 1512px;
   min-width: 24px;
@@ -1105,4 +1105,98 @@ body {
     opacity: 1;
     transform: translateY(-15px);
   }
+}
+
+
+/*reindeerstrap*/
+.santa {
+background: url(http://myskins.org/images/santas.gif) no-repeat right;
+background-size: 240px;
+background-position-y: 30px;
+padding-top: 0px;
+height: 145px;
+right: 0;
+text-align: right;
+}
+
+.tree {
+background: url(http://myskins.org/images/ctree.png)bottom center;
+padding: 0;
+height: 145px;
+-moz-animation: bgscroll 370s infinite linear;
+-ms-animation: bgscroll 370s infinite linear;
+-o-animation: bgscroll 370s infinite linear;
+-webkit-animation: bgscroll 370s infinite linear;
+}
+
+.topwrap1 {
+color: #777;
+background: #FFF url(http://myskins.org/images/Mountain.png) top center repeat-x;
+padding: 0;
+margin:0;
+height: 165px;
+border-bottom: 0 solid #333;
+margin: auto auto;
+vertical-align: middle;
+box-shadow: 0 0 1px rgba(255, 255, 255, 0.4) inset,0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.topwrap1 {
+-moz-animation: bgscroll 750s infinite linear;
+-ms-animation: bgscroll 750s infinite linear;
+-o-animation: bgscroll 750s infinite linear;
+-webkit-animation: bgscroll 750s infinite linear;
+}
+/* BEGIN ANIMATIONS */
+
+@-webkit-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-moz-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-ms-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@-o-keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+@keyframes bgscroll {
+	from {background-position: 0 0;}
+	to {background-position: -9999px 0;}
+}
+
+.rotate{-webkit-transition-duration:.8s;
+  -moz-transition-duration:.8s;
+  -o-transition-duration:.8s;
+  transition-duration:.8s;
+  -webkit-transition-property:-webkit-transform;
+  -moz-transition-property:-moz-transform;
+  -o-transition-property:-o-transform;
+  transition-property:transform;
+  overflow:hidden;
+}
+
+.rotate:hover{
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg)
+}
+
+
+.wrap{
+  width: 95%;
+  min-width: 1150px;
+  max-width: 1200px;
+  margin:0 auto;
+  text-align:left
 }
