@@ -149,3 +149,8 @@ init();
 $(function () {
  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
+
+/*reindeerstrap*/
+jQuery(function($) {
+$().jSnow();
+});
