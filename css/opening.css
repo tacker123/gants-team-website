@@ -1,0 +1,25 @@
+body {
+  background: url('https://c1.staticflickr.com/5/4116/4908657255_881555b481_b.jpg') no-repeat 50% 50% fixed;
+  background-color: black;
+  background-size: cover;
+}
+
+#moon {
+  position: absolute;
+  top: 50px;
+  right: 10%;
+  height: 140px; width: 140px;
+  border-radius: 100%;
+  background-color: black;
+  background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQF0yrhS5MUow4hT-jqjHrtaVCqYpn4-HZOCPfGrI_f7VS1mto7') no-repeat 50% 50%;
+  background-position: center center;
+  background-size: 260px;
+}
+
+#santa {
+  position: absolute;
+  width: 360px;
+  height: 250px;
+  background-image: url('http://www.netanimations.net/Animated_santa_reindeer_flying.gif');
+  background-repeat: no-repeat;
+}
