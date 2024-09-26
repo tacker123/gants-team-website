@@ -23,9 +23,13 @@ div#inner {
   min-width: 24px;
 }
 
+/*css for desserts.html page */
 
 
-  /*css for social media icons, all pages */
+
+
+
+/*css for social media icons, all pages */
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -36,7 +40,7 @@ div#inner {
 
 p#socialmedia {
   text-align: center;
-  position: fixed;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -44,8 +48,8 @@ p#socialmedia {
 
 
 
-  /*css for baking.html page */
-  /* note: where " . " means "class" */
+/*css for baking.html page */
+/* note: where " . " means "class" */
 
   .view {
     margin: 50px;
@@ -288,9 +292,16 @@ p#socialmedia {
   }
   /*end CSS for baking.html */
 
-/*CSS for gingerbread.html and other recipes*/
-h3{
+/*CSS for baking.html recipes*/
+h2#baking{
   font-size: 35px;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(153,0,18)
+}
+
+h3{
+  font-size: 25px;
   font-weight: bold;
   padding: 10px;
 }
@@ -299,9 +310,8 @@ ul{
   list-style: square inside;
   padding-left: 40px;
   font-size: 20px;
-
-
 }
+
 ol{
   list-style: square inside;
   font-size: 20px;
@@ -313,15 +323,54 @@ ol{
   padding-left: 40px;
 }
 
-img#ginger {
-  display: flex;
-  padding: 0px;
-  margin: 20px;
-  align-items: center;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  border: solid;
-  border-color: darkred;
+h1#space{
+  padding-top: 450px;
+}
+
+body#baking {
+  background-image: url("../images/background2.jpg");
+  background-position: center center;
+  width: 100%;
+  style='max-width: 500px'
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body#contact-us {
+  background-image: url("../images/background6.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+p#contact-us{
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 22px;
+  border: 0;
+  padding: 10px;
+  font-size: 18px;}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: darkred;
+  color: white;
+}
+
+a#form {
+  color: rgb(153,0,18);
+  font-family: helvetica;
+  font-size: 20px;
+  padding: 20px;
 }
